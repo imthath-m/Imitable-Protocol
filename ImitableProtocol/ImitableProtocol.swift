@@ -25,7 +25,7 @@ extension Decodable {
 }
 
 protocol Imitable: Codable {
-    
+    func copy() -> Self
 }
 
 extension Imitable {
