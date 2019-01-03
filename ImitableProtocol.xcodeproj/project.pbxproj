@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A868564321DE17B500A6B115 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868564221DE17B500A6B115 /* main.swift */; };
+		A868564C21DE181300A6B115 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868564921DE181200A6B115 /* main.swift */; };
+		A868564D21DE181300A6B115 /* ImitableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868564A21DE181300A6B115 /* ImitableProtocol.swift */; };
+		A868564E21DE181300A6B115 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A868564B21DE181300A6B115 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		A868563F21DE17B500A6B115 /* ImitableProtocol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImitableProtocol; sourceTree = BUILT_PRODUCTS_DIR; };
-		A868564221DE17B500A6B115 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A868564921DE181200A6B115 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../../ForPractice/ImitableProtocol/main.swift; sourceTree = "<group>"; };
+		A868564A21DE181300A6B115 /* ImitableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImitableProtocol.swift; sourceTree = "<group>"; };
+		A868564B21DE181300A6B115 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		A868564121DE17B500A6B115 /* ImitableProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				A868564221DE17B500A6B115 /* main.swift */,
+				A868564A21DE181300A6B115 /* ImitableProtocol.swift */,
+				A868564921DE181200A6B115 /* main.swift */,
+				A868564B21DE181300A6B115 /* Person.swift */,
 			);
 			path = ImitableProtocol;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A868564321DE17B500A6B115 /* main.swift in Sources */,
+				A868564C21DE181300A6B115 /* main.swift in Sources */,
+				A868564E21DE181300A6B115 /* Person.swift in Sources */,
+				A868564D21DE181300A6B115 /* ImitableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
