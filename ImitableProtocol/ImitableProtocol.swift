@@ -25,12 +25,12 @@ extension Decodable {
 }
 
 protocol Imitable: Codable {
-    func copy() -> Self
+    func copy() -> Self?
 }
 
 extension Imitable {
-    func copy() -> Self {
-        let jsonString = self.jsonString
-        return Self(from: jsonString)!
+    func copy() -> Self? {
+        guard let data = try? JSONEncoder().encode(self) else { return nil }
+        return try? JSONDecoder().decode(Self.self, from: data)
     }
 }
